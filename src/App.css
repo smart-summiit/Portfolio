@@ -1,0 +1,106 @@
+section { padding: 60px 0;
+min-height: 100vh;
+display: flex;
+align-items: center; }
+
+
+body.dark-mode {
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    .dark-mode .bg-light {
+      background-color: #1f1f1f !important;
+    }
+
+    .dark-mode .navbar,
+    .dark-mode .card,
+    .dark-mode  .navbardarkmode,
+    .dark-mode .btn {
+      background-color: #2a2a2a ;
+      color: #f0f0f0;
+    }
+    .dark-mode .navbardarkmode {
+      background-color: #2a2a2a !important;
+      color: #f0f0f0 !important;
+    }
+    .dark-mode .navbardarkmode ul li a,
+    .dark-mode .bbbbbfff{
+      /* background-color: #2a2a2a !important; */
+      color: #f0f0f0 !important;
+    }
+    .dark-mode .navbardarkmode ul li a:hover,
+    .dark-mode .pdarkmode{
+      /* background-color: #2a2a2a !important; */
+      color: #2a2a2a !important;
+    }
+
+    .nav-item .nav-link:hover,
+.nav-item .nav-link:focus {
+  background-color: #f0f0f0 ; 
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item .nav-link.active {
+  background-color: #292D4A;
+  color: white !important;
+  border-radius: 6px;
+}
+
+
+/* إعداد الخطوط العامة */
+body {
+  font-family: 'Poppins', 'Tajawal', sans-serif;
+}
+
+/* دعم اللغة العربية */
+body.arabic {
+  font-family: 'Tajawal', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+/* دعم اللغة الإنجليزية */
+body.english {
+  font-family: 'Poppins', sans-serif;
+  direction: ltr;
+  text-align: left;
+}
+
+.typing {
+  font-family: monospace;
+  font-size: 2.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #F3983F; /* المؤشر */
+  width: 0;
+  animation: typing 4s steps(26) forwards, 
+             /* deleting 4s steps(26) forwards 4s, */
+             blink 0.75s step-end infinite;
+  /* animation-iteration-count: infinite; */
+  color: #F3983F;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 26ch; }
+}
+
+@keyframes deleting {
+  from { width: 26ch; }
+  to { width: 0; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+  100% { border-color: #F3983F; }
+}
+
+.typing-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  position: relative;
+}
