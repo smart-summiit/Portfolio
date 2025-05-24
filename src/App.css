@@ -141,6 +141,14 @@ body.english {
   .typing {
     font-size: 1.75rem;
   }
+section,
+#home, 
+#about, 
+#services, 
+#portfolio, 
+#contact {
+  scroll-margin-top: 150px; /* أعلى من ارتفاع الـ navbar على الموبايل */
+}
 
   .lead {
     font-size: 1.25rem !important;
