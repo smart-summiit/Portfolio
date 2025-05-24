@@ -42,7 +42,10 @@ function Portfolio({ isArabic, isDark }) {
         <h2 className="mb-4" style={{ color:'var(--second-color)' }}>
           {t("Our Portfolio", "أعمالنا")}
         </h2>
-        <p>{t("Here are some of the projects we’ve delivered to our happy clients.", "بعض من مشاريعنا التي نفذناها لعملائنا.")}</p>
+         <p className='section-subtitle'>{t("Discover our successful implementations and see how we've helped companies transform their operations.", 
+                  "اكتشف تنفيذاتنا الناجحة وشاهد كيف ساعدنا الشركات على تحويل عملياتها.")}</p>
+
+        {/* <p>{t("Here are some of the projects we’ve delivered to our happy clients.", "بعض من مشاريعنا التي نفذناها لعملائنا.")}</p> */}
         
         <div className="row g-4 mt-4">
           {projects.map((project, index) => (

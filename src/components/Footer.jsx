@@ -9,7 +9,7 @@ function Footer({ isArabic, isDark }) {
 
   return (
     <footer
-      className={`pt-5 pb-3 ${isDark ? 'footer-gradient-bg text-white' : 'bg-light text-dark'}`}
+      className={`pt-5 pb-3 ${isDark ? "bg-dark text-white" : "bg-light"}`}
       dir={dir}
     >
       <motion.div
@@ -40,11 +40,11 @@ function Footer({ isArabic, isDark }) {
 
           {/* وصف الشركة */}
           <div className="col-md-5 mb-4">
-            <h5>{t('About SmartSummit', 'عن SmartSummit')}</h5>
+            <h5>{t('About Smart Summit', 'عن Smart Summit')}</h5>
             <p>
               {t(
-                'SmartSummit is a leading tech company offering cutting-edge software solutions that drive success and innovation for businesses worldwide.',
-                'SmartSummit هي شركة تقنية رائدة تقدم حلول برمجية مبتكرة تدفع النجاح والابتكار للشركات حول العالم.'
+                'Smart Summit is a leading tech company offering cutting-edge software solutions that drive success and innovation for businesses worldwide.',
+                'Smart Summit هي شركة تقنية رائدة تقدم حلول برمجية مبتكرة تدفع النجاح والابتكار للشركات حول العالم.'
               )}
             </p>
             <p>
@@ -90,7 +90,7 @@ function Footer({ isArabic, isDark }) {
         {/* الحقوق والأيقونات */}
         <div className="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top">
           <p className="mb-0">
-            {t('© 2025 SmartSummit. All rights reserved.', '© 2025 SmartSummit. جميع الحقوق محفوظة.')}
+            {t('© 2025 Smart Summit. All rights reserved.', '© 2025 Smart Summit. جميع الحقوق محفوظة.')}
           </p>
           <ul className="list-unstyled d-flex mt-3 mt-sm-0">
             <li className="ms-3">

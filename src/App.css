@@ -101,6 +101,56 @@ body.english {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120px;
+  /* height: 120px; */
   position: relative;
+}
+
+@media (max-width: 576px) {
+  
+.typing-wrapper {
+  width: 100%;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.typing {
+  font-size: 1.75rem;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  /* overflow: hidden; */
+  border-right: none; /* المؤشر */
+  width: auto;
+    border-right: 4px solid #F3983F;
+  animation: none ;
+  color: #F3983F;
+}
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+  .typing {
+    font-size: 1.75rem;
+  }
+
+  .lead {
+    font-size: 1.25rem !important;
+  }
+}
+}
+
+.section-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+    max-width: 42rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }

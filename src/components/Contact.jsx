@@ -10,7 +10,7 @@ function Contact({ isArabic, isDark }) {
         <h2 className="mb-4" style={{ color: 'var(--second-color)' }}>
           {t("Contact Us", "اتصل بنا")}
         </h2>
-        <p>{t("Have a project in mind? Let’s connect!", "هل لديك مشروع؟ دعنا نتواصل!")}</p>
+        <p className='section-subtitle'>{t("Are you ready to transform your business operations? Contact our team to schedule a demo or learn more about our solutions.", "هل أنت مستعد لتطوير عمليات شركتك؟ تواصل مع فريقنا لحجز عرض توضيحي أو لمعرفة المزيد عن حلولنا!")}</p>
 
         <form
           className="mx-auto mt-4"

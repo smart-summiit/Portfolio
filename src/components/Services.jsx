@@ -4,6 +4,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Services = ({ isArabic, isDark }) => {
+    const t = (en, ar) => (isArabic ? ar : en);
+
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -48,6 +50,8 @@ const Services = ({ isArabic, isDark }) => {
         >
           {isArabic ? "خدماتنا" : "Our Services"}
         </h2>
+                <p className='section-subtitle'>{t(" Integrated solutions for modern businesses. Our easy-to-use and efficient point-of-sale systems streamline operations and enhance the customer experience.", 
+                  " حلول متكاملة للشركات العصرية. أنظمة نقاط البيع لدينا سهلة الاستخدام وفعّالة تُسهّل العمليات وتُحسّن تجربة العملاء.")}</p>
 
         <div className="row g-4">
           {services.map((service, index) => (
