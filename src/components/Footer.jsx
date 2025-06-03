@@ -108,6 +108,20 @@ function Footer({ isArabic, isDark }) {
                 </svg>
               </a>
             </li>
+            <li className="ms-3">
+  <a
+    className="text-decoration-none"
+    href="https://www.tiktok.com/@smartsummiit?_t=ZS-8wsaZOBwPvr&_r=1"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="TikTok"
+  >
+    <svg width="24" height="24" fill={isDark ? '#ccc' : '#000'} viewBox="0 0 48 48">
+      <path d="M41.6 15.5v4.3c-2.5 0-5-0.7-7.1-2v13.4c0 6.3-5.1 11.4-11.4 11.4s-11.4-5.1-11.4-11.4 5.1-11.4 11.4-11.4c0.5 0 0.9 0 1.4 0.1v4.5c-0.5-0.1-0.9-0.2-1.4-0.2-3.8 0-6.9 3.1-6.9 6.9s3.1 6.9 6.9 6.9 6.9-3.1 6.9-6.9v-24h4.6c0.8 3.6 3.7 6.5 7.3 7.3z" />
+    </svg>
+  </a>
+</li>
+
           </ul>
         </div>
       </motion.div>
