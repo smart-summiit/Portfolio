@@ -92,8 +92,7 @@ function Footer({ isArabic, isDark }) {
           <p className="mb-0">
             {t('© 2025 Smart Summit. All rights reserved.', '© 2025 Smart Summit. جميع الحقوق محفوظة.')}
           </p>
-
- <ul className="list-unstyled d-flex mt-3 mt-sm-0">
+          <ul className="list-unstyled d-flex mt-3 mt-sm-0">
             <li className="ms-3">
               <a className="text-decoration-none" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <svg width="24" height="24" fill={isDark ? '#ccc' : '#000'} viewBox="0 0 24 24">
@@ -109,7 +108,7 @@ function Footer({ isArabic, isDark }) {
                 </svg>
               </a>
             </li>
-   <li className="ms-3">
+            <li className="ms-3">
   <a
     className="text-decoration-none"
     href="https://www.tiktok.com/@smartsummiit?_t=ZS-8wsaZOBwPvr&_r=1"
@@ -122,7 +121,8 @@ function Footer({ isArabic, isDark }) {
     </svg>
   </a>
 </li>
- {/* YouTube */}
+
+             {/* YouTube */}
   <li className="ms-3">
     <a className="text-decoration-none" href="https://youtube.com/@smartsummiit?si=Pjy3928_VPm6Un7D" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
       <svg width="24" height="24" fill={isDark ? '#ccc' : '#000'} viewBox="0 0 24 24">
@@ -130,8 +130,8 @@ function Footer({ isArabic, isDark }) {
       </svg>
     </a>
   </li>
+  
           </ul>
-
         </div>
       </motion.div>
     </footer>
