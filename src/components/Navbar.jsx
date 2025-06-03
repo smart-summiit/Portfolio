@@ -3,6 +3,7 @@ import { Collapse } from "bootstrap";
 import imagedark from '../image/ChatGPT_Image_May_17__2025__01_21_08_PM-removebg-preview.png';
 // import image from '../image/logo_transparent.png';
 import image from '../image/logo_smart.jpeg';
+// import image from '../image/logo_smart_sm_tr.png';
 
 const Navbar = ({ isArabic, toggleLanguage, toggleDarkMode, isDark }) => {
   const [activeSection, setActiveSection] = useState("home");
@@ -51,7 +52,9 @@ const Navbar = ({ isArabic, toggleLanguage, toggleDarkMode, isDark }) => {
             width="40"
             height="40"
             className="d-inline-block align-text-top"
-            style={{ borderRadius: '50px',backgroundColor:`${isDark ? "transparent" : "#2a2a2a"}` }}
+            // style={{ borderRadius: '50px',backgroundColor:`${isDark ? "transparent" : "#2a2a2a"}` }}
+                        style={{ borderRadius: '50px',backgroundColor:`${isDark ? "wheat" : "transparent"}` }}
+
           />
           <span className="fw-bold" style={{ color: isDark ? "#ffff":'var(--primary-color)' }}>
             SmartSummit
