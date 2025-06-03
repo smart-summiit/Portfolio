@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Collapse } from "bootstrap";
 import imagedark from '../image/ChatGPT_Image_May_17__2025__01_21_08_PM-removebg-preview.png';
-import image from '../image/logo_transparent.png';
+// import image from '../image/logo_transparent.png';
+import image from '../image/logo_smart.jpeg';
 
 const Navbar = ({ isArabic, toggleLanguage, toggleDarkMode, isDark }) => {
   const [activeSection, setActiveSection] = useState("home");
